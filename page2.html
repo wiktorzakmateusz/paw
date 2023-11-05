@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page2</title>
+    <link rel="stylesheet" href="task6.css" type="text/css">
+    <style>
+    </style>
+    <script src="page2.js"></script>
+</head>
+<body>
+    <header>
+        <h2>Something about something</h2>
+        <hr id="line">
+        <h4>La ala lo li le</h4>
+    </header>
+
+    <p><b>Reserve a seat</b></p>
+
+    <p><b>Timetable</b></p>
+
+    <table border="1">
+        <tr> <th><b>Weekday</b></th> <th><b>8-10</b></th> <th><b>10-12</b></th> <th><b>14-17</b></th> </tr>
+        <tr> <td>Saturday</td> <td rowspan="2" class="free">Free</td> <td class="res">Res.</td> <td class="free">Free</td> </tr>
+        <tr> <td>Sunday</td> <td colspan="2" class="free">Free</td></tr>
+    </table>
+    
+    <p><b>Fill</b></p>
+    
+    <form action="">
+        <fieldset>
+            <legend>Date</legend>
+                <table>
+                    <tr>
+                        <td id="leftUp"><label for="month"> Month </label></td>
+                        <td id="right"><select>
+                            <optgroup>
+                                <option>Sunday</option>
+                            </optgroup>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td id="leftUp"><label for="day"> Month day </label></td>
+                        <td id="right"><input type="number" value="1" min="1" max="31"></td>
+                    </tr>
+                </table>
+        </fieldset>
+        <fieldset>
+            <legend>Group info</legend>
+                <table>
+                    <tr>
+                        <td id="leftDown"><label for="groupName"> Group name </label></td>
+                        <td id="right"><input id="groupNameInput" name="groupName"></td>
+                    </tr>
+                    <tr>
+                        <td id="leftDown"><label for="groupPassword"> Group password </label></td>
+                        <td id="right"><div id="groupPasswordInputContainer"><input id="groupPasswordInput" name="groupPassword"></div></td>
+                    </tr>
+                    <tr>
+                        <td id="leftDown"><label for="phone"> Phone </label></td>
+                        <td id="right"><input name="phone" pattern="[0-9]{9}" required></td>
+                    </tr>
+                </table>
+        </fieldset>
+        <input type="Submit" value="Send form">
+    </form>
+
+    <div id="footer">
+        <div>Rybba</div>
+        <div class="secondThirdLineFooter">00-662 Warszawa</div>
+        <div class="secondThirdLineFooter">ul. Koszykowa 75</div>
+        <div class="fourthLineFooter">info@fisshpw.pw</div>
+    </div>
+    <div id="waveContainer">
+        <img src="wave.jpg" width="100%">
+    </div>
+</body>
+</html>
+
+<!-- Browser: Chrome -->

@@ -1,0 +1,180 @@
+header {
+    background-color: rgb(42, 8, 122);
+    color: white;
+    text-align: center;
+    padding: 1em;
+    margin: 20px;
+    border-radius: 20px;
+    border-left :15px solid rgb(76, 174, 15);
+    border-right :15px solid rgb(190, 196, 35);
+    position: relative;
+    z-index: 1;
+
+}
+
+h2 {
+    margin-bottom: 0;
+}
+
+#line {
+    border: none;
+    margin: 0;
+    height: 12px;
+    background: rgb(42, 8, 122);
+    background: repeating-linear-gradient(90deg,red,red 40px,transparent 40px,transparent 80px);
+}
+
+.textBlock {
+    margin: 20px;
+    padding: 20px;
+    font-size: 14px;
+    background-color: rgb(163, 252, 252);
+    position: relative;
+    z-index: 1;
+}
+
+.text {
+    vertical-align: top;
+    margin-left: 10px;
+}
+
+.content {
+    padding-top: 15px;
+    display: flex;
+}
+
+#waveContainer {
+    position: relative;
+    bottom: 450px;
+    z-index: 0;
+}
+
+#links {
+    background-color: rgb(237, 113, 113);
+    color: rgb(150, 1, 1);
+    padding: 20px;
+    position: relative;
+    bottom: 165px;
+    z-index: 0;
+    margin: 0;
+}
+
+#cookiesContainer {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    margin-left: 0;
+    padding-left: 0;
+    margin-top: 0;
+}
+
+#cookies {
+    background-color: transparent;
+    color: lightseagreen;
+    font-size: 18px;
+}
+
+#button {
+    background-color: lightseagreen;
+    color: rgb(237, 113, 113);
+    font-size: 16px;
+    font-weight: bold;
+    border-color: white;
+    
+}
+
+#listContainer {
+    position: relative;
+    z-index: 1;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.listContent {
+    background-color: transparent;
+    color: rgb(9, 113, 9);
+    font-size: 14px;
+    padding-left: 25px;
+}
+
+#footer {
+    text-align: right;
+}
+
+.secondThirdLineFooter {
+    font-style: italic;
+}
+
+.fourthLineFooter {
+    color: rgb(9, 113, 9);
+}
+
+.free {
+    background-color: green;
+}
+
+.res {
+    background-color: red;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+        opacity: 1
+}
+
+table, p, form {
+    position: relative;
+    z-index: 1;
+}
+
+#leftUp {
+    padding-right: 86px;
+}
+#leftDown {
+    padding-right: 50px;
+}
+
+#right {
+    position: absolute;
+    left: 250px;
+}
+
+table td:first-child {
+    border-right-style: groove;
+}
+
+.wrongGroupNameInput {
+    background-color: red;
+}
+
+.correctGroupNameInput {
+    background-color: green;
+}
+
+#groupPasswordInputContainer {
+    display: flex;
+}
+
+.error1 {
+    background-color: rgb(244, 98, 98);
+    width: 200px;
+    margin: 0;
+    padding: 0;
+    margin-left: 10px;
+    text-align: center;
+}
+.error2 {
+    background-color: rgb(244, 98, 98);
+    width: 200px;
+    margin: 0;
+    padding: 0;
+    margin-left: 10px;
+    text-align: center;
+}
+
+
+#groupPasswordInputContainer {
+    margin-right: 150px;
+}
+
+
+
